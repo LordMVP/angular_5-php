@@ -1,0 +1,14 @@
+<div class="container" *ngIf="isVisible">
+<h1 class="my-4 text-center text-lg-left"> Gallery</h1>
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="img-fluid img-thumbnail" src="https://ucarecdn.com/{{id}}/">
+    </div>
+    <div class="col-lg-4">
+        <img class="img-fluid img-thumbnail" src="https://ucarecdn.com/{{id}}/-/preview/-/blur/50/">
+      </div>
+      <div class="col-lg-4">
+          <img class="img-fluid img-thumbnail" src="https://ucarecdn.com/{{id}}/-/preview/-/grayscale/">
+        </div>
+  </div>
+</div>
